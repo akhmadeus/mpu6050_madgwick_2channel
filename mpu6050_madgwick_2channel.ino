@@ -2,14 +2,6 @@
 //https://gitlab.com/shuvashish/batikkrom.com/blob/master/MuttipleMPU/MuttipleMPU.ino
 //Code related to Madgwick filter is taken from its Example provided with Arduino IDE.
 
-//Couple of advices:
-//This code cannot be directly expanded to have more MPU6050s than two. 
-//To have more MPU6050s, conisder bying a multiplexer and adress 
-//all the MPU6050s with the same adress but multiplexe the SDA channel
-
-//Attention: MPU6050 has no magnetometer, so the yaw (heading) readings suffer a large drift.
-//In fact, it is a 5-reliable-axis IMU.
-
 //If this implementation doesn't suit you for some reason, take a look at a this:
 //https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
 
